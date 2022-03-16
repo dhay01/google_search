@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://img.icons8.com/fluency/48/000000/google-logo.png" />
-    <title>google</title>
+    <title>google images</title>
 </head>
 
 <body>
@@ -23,8 +23,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="image-search.html">
-                        images
+                    <a href="index.html">
+                        search
                     </a>
                 </li>
                 <li>
@@ -39,44 +39,39 @@
     </header>
     <center>
         <div class="logo">
-            <img class="google-logo" src="googlelogo_color_272x92dp.png">
+            <img class="google-logo" src="googleimages.png">
         </div>
         <div class="btns">
-            <form action="https://google.com/search">
+            <form action="http://images.google.com/images">
+
+                <input type="hidden" name="tbm" value="isch">
 
                 <input class="search-bar text" type="text" name="q">
+                <input hidden type="file" type="submit" id="img-search">
+
+
+
+
                 <img class="voice-search-icon"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png">
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACdUlEQVRIie2VP2gUQRTGf292m3BiGq3USsUu4J9KUdObIArapQnsHAG3UARBiaygYpXCE+LNwkVIpyJiFDsFo5UBwU7RKiGFVpLI3obbexbe6WGS25VTBMlXzc773vfbmWF3YEP/u6SocWxsbE+WZXeBgXUsbz3POz05OfmuSJ6/1qS19hVwEHjpnDsM0Gg0bovIelCAgSzLqsBgEXDuikdGRkp9fX3ngahIIHA5SZKJ6enpr4XA1tpjQBXYVhDwu1pQVRvH8VMA01G4XQD6SUTGVXVvkiSbkiTZZIzZJyLjwOec3u0iUm0/dJ7x9m5dqno/y7LRWq229EvpDfAmDMObaZpOASc7eg6JiAFmW1M71gJ3hcZxfBrQcrl8XFXPAgdatdfGmIlKpTITRdGpxcXFe224iJhmsynGmFWZq2dW61OWZaOABkFwQ1UfAkeBElASkUFVfWStvRZFURMY5ee2zxpjXqwVmgsWkUqtVlsql8vHReRCF+vFIAiGnHNfVPVWXm6RFc8AtLY37yXPAXieN9Mz2PO8j63h/jwvrXNfWVn50DO4Xq8X/q0CClAqlXJ7iqx4J4CqzuV5RWQOIE3TXT2DRWQYwBgzkedV1bZnuGcwEIZhuLlarc4A17tArzrnnlhr+4EzfwK8NU3TqSiKjHPukqoOA8+BZWBZRJ4BQ3Ecj0dRZIA7wJa80M5LQnO8D4BR59yXtYrW2n4RmVLVE91CnHMCBX+ZLZ0EjgRBUBGRx77vv6/X6+L7/m5VHQJCVc1daVud4AVyLgpgi4hcAa40Gg18/3u7SOEvbr49+HHGqmpb8L+leRGxfzF/Qxv6x/oGorDqezbSyZgAAAAASUVORK5CYII=">
+
+
+
+                <label for="img-search">
+                    <img class="camera "
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png">
+
+                </label>
+
 
                 <br>
 
                 <input class="primary" type="submit" value="Google Search">
-                <form action="https://google.com/doodles">
-                    <input class="primary" value="I'm Feeling Lucky" name="btnI" type="submit"
-                        aria-label="I'm Feeling Lucky">
-                    <input hidden type="submit" name="source" value="hp">
-                </form>
+
             </form>
 
 
         </div><br>
-
-        <ul class="flex-container languages">
-            <li>
-                Google offered in:
-            </li>
-            <li>
-                <a href="#">
-                    العربية
-                </a>
-
-            </li>
-            <li>
-                <a href="#">
-                    كوردى
-                </a>
-
-        </ul>
 
 
 

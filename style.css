@@ -35,9 +35,12 @@ ul li a {
 /* .google-nav {
     justify-content: space-around; 
 } */
-/* .space-between {
+.space-between {
     justify-content: space-between; 
-} */
+}
+.srch-nav {
+    margin-left: 1050px;
+}
 
 /* .flex-container {
     padding: 10px;
@@ -84,6 +87,7 @@ primary:focus {
 .sign-btn:hover {
     outline: none !important;
     border: none !important;
+    cursor: pointer;
 }
 
 .logo {
@@ -106,6 +110,7 @@ primary:focus {
 .search-bar:hover {
     box-shadow: 1px 1px 8px 1px #dcdcdcbb;
     transition: ease-in-out all 300ms;
+
 }
 
 .search-bar:focus {
@@ -116,13 +121,16 @@ primary:focus {
     height: 20px;
     position: relative;
     top: 5px;
-    left: -50px;
+    left: -70px;
+    cursor: pointer;
 }
 
-.search-icon {
-    left: -610px;
+.camera {
+    height: 20px;
     position: relative;
-    top: 8px;
+    top: 5px;
+    left: -60px;
+    cursor: pointer;
 }
 
 .text {
@@ -188,4 +196,111 @@ footer li {
     padding: 10px 20px 8px 50px;
     color: rgb(87, 87, 87);
     font-size: small;
+}
+
+/* advanced search */
+.google-logo-adv {
+    height: 40px;
+    padding-right: 530px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.google-nav {
+    display: inline-flex;
+}
+
+.ul-adv {
+    float: inline-end;
+}
+
+.title {
+    color: #f28b82;
+    margin-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.border {
+    border-bottom: solid 1px rgb(167, 167, 167);
+    width: 100%;
+}
+
+.title h3 {
+    font-weight: 400 !important;
+}
+
+.search-fields {
+    margin-left: 40px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.search-fields h4 {
+    color: rgb(80, 80, 80);
+    font-weight: 500 !important;
+    padding-bottom: 20px;
+}
+
+
+.adv-display {
+    width: 80%;
+    overflow: hidden;
+}
+
+.adv-f {
+    padding-right: 150px;
+}
+
+#advanced {
+    float: left !important;
+    align-content: flex-start;
+    text-align: left;
+}
+
+
+.row input {
+    min-width: 75%;
+    height: 25px;
+    padding: 2px 10px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.row label {
+    padding-right: 50px;
+    border-radius: 2px;
+}
+
+#first {
+    margin-left: 70px;
+    border-radius: 2px;
+}
+#second {
+    border-radius: 2px;
+}
+#third {
+    margin-left: 45px;
+    border-radius: 2px;
+}
+
+#fourth {
+    margin-left: 37px;
+    border-radius: 2px;
+}
+
+.row .h6 {
+float: left;
+    display: inline-block;
+    width: 10px;
+    
+}
+
+
+.adv-btn {
+    padding: 10px;
+   margin-left: 970px;
 }
