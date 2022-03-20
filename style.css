@@ -304,3 +304,57 @@ float: left;
     padding: 10px;
    margin-left: 970px;
 }
+
+.labels{
+    width:100%;
+    padding-bottom: 50px;
+
+   
+}
+
+.labels div{
+    width:100%;
+        display: flex;
+    
+
+}
+.labels div label{
+    width:15%;
+    margin:5px 0;
+    color:rgb(68, 68, 68);
+
+}
+.input{
+    width:30%;
+    margin:5px 0;
+    color:rgb(68, 68, 68);
+}
+ .inputs{
+    width:15%;
+    margin:5px 0;
+    color:rgb(68, 68, 68);
+}
+.labels div p{
+    font-size: 11px;
+font-family: sans-serif,arial; 
+   width:40%;
+   margin:8px 10px;
+   color:rgb(68, 68, 68);
+}
+h4{
+    color:rgb(68, 68, 68);
+}
+.inputs{
+    width:14%;
+    margin:5px 0;
+    color:rgb(68, 68, 68);
+}
+.labels div h4{
+    margin:0 4px;
+    margin-top: 5px;
+
+}
+p {
+    font-size: medium !important;
+    color:rgb(68, 68, 68);
+}
